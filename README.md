@@ -1,4 +1,4 @@
-# TDD  
+# TDD
 "TDD By Example Kent Beck"
 
 Чистый код, который работает.  
