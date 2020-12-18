@@ -34,9 +34,9 @@ public class WyCacheTest {
 //TODO Равенство значению null
 //TODO Равенство объектов
 //TO-DO 5CHF * 2 = 10CHF
-//TODO Дублирование Dollar\Franc
+//TO-DO Дублирование Dollar\Franc
 //TO-DO Общие операции equals()
 //TO-DO times()
 //TO-DO Сравнение Франков и Долларов
 //TO-DO Валюта?
-//TODO Нужен ли francMultiplier()?
+//TO-DO Нужен ли francMultiplier()?
