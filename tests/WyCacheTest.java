@@ -22,6 +22,12 @@ public class WyCacheTest {
         assertEquals("USD", Money.dollar(1).currency());
         assertEquals("CHF", Money.franc(1).currency());
     }
+
+    @Test
+    public void simpleAddition() {
+        Money sum = Money.dollar(5).plus(Money.dollar(5));
+        assertEquals(Money.dollar(10), sum);
+    }
 }
 
 //TODO $5 + 10CHF = $10 при 2:1
@@ -40,3 +46,5 @@ public class WyCacheTest {
 //TO-DO Сравнение Франков и Долларов
 //TO-DO Валюта?
 //TO-DO Нужен ли francMultiplier()?
+
+//TODO $5 + $5 = $10
